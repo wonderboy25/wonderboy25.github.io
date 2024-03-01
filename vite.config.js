@@ -31,7 +31,7 @@ export default defineConfig(({ command, mode, isSsrBuild, isPreview }) => {
     // command === 'build'
     return {
       // build specific config
-      base: '/victouriousprincess/',
+      // base: '/victouriousprincess/',
       plugins: [react()]
     }
   }
