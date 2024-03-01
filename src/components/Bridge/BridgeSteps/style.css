@@ -1,0 +1,22 @@
+.stepsContainer {
+    display: flex;
+    width: 100%;
+    max-width: 330px;
+    justify-content: space-between;
+    margin-bottom: 26px;
+    align-items: center;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    max-width: 330px;
+    padding: 6px 10px;
+    border-radius: 30px;
+    background: linear-gradient(136deg, rgba(93, 7, 249, 0.20) 0%, rgba(5, 240, 176, 0.20) 98.79%);
+}
+
+.contentContainer {
+    margin-top: 6px;
+}

@@ -1,0 +1,32 @@
+.cardBorder {
+    position: relative;
+    margin: 0;
+    backdrop-filter: blur(15px);
+    background: rgba(3, 3, 3, 0.4);
+    border-radius: 24px;
+}
+
+.cardBorder::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 24px;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: transparent;
+
+    background: linear-gradient(135.71deg, #5D07F9 0%, #05F0B0 98.79%) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+                  linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+        mask-composite: exclude;
+}
+
+
+.chakra-modal__content {
+    position: relative;
+    margin: 0;
+    backdrop-filter: blur(15px) !important;
+    background: rgba(10, 10, 10) !important;
+    border-radius: 24px !important;
+}

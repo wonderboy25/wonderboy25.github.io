@@ -1,0 +1,19 @@
+.infoContainer {
+    display: flex;
+    width: 100%;
+    max-width: 460px;
+    justify-content: space-between;
+    margin: 30px 0 15px 0;
+    padding: 0 40px;
+    align-items: center;
+}
+
+.priceContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 14px 20px;
+    border-radius: 50px;
+    border: 1px solid #5D07F9;
+    background: linear-gradient(136deg, rgba(93, 7, 249, 0.20) 0%, rgba(5, 240, 176, 0.20) 98.79%);
+}

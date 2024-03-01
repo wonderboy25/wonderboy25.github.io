@@ -1,0 +1,90 @@
+.cardTitle {
+    /*font-family: Poppins, serif;*/
+    font-size: 52px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 150%; /* 78px */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+
+    background: linear-gradient(147deg, #5D07F9 0%, #05F0B0 65.71%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.calendarStyle {
+    padding: 10px;
+    /*background-image: linear-gradient(147deg, #5D07F9 0%, #05F0B0 98.79%);*/
+    border-radius: 50px;
+    gap: 10px;
+}
+
+.swapContainer {
+    display: flex;
+    width: 100%;
+    max-width: 650px;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 0 40px;
+    align-items: center;
+}
+
+.selectorLeftSide {
+    display: flex;
+    width: 90px;
+    height: 52px;
+    padding: 14px 20px;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+    color: #05F0B0;
+}
+
+.selectorColor {
+    border-radius: 30px 0px 0px 30px;
+    background: linear-gradient(136deg, rgba(93, 7, 249, 0.30) 0%, rgba(5, 240, 176, 0.30) 98.79%);
+}
+
+.selectorDropDown {
+    display: flex;
+    height: 52px;
+    padding: 14px 20px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+    flex: 1 0 0;
+    border-radius: 0px 30px 30px 0px;
+    background: rgba(3, 3, 3, 0.40);
+}
+
+.switchButton {
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 50px;
+    background: linear-gradient(136deg, #5D07F9 0%, #05F0B0 98.79%);
+}
+
+.warningStyle {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 12px;
+    background: rgba(93, 7, 249, 0.20);
+}
+
+.CTAButton {
+    background: linear-gradient(136deg, #5D07F9 0%, #05F0B0 98.79%);
+}
+
+@media screen and (max-width: 1280px) {
+    .cardTitle {
+        font-size: 32px;
+        letter-spacing: 1.28px;
+    }
+}

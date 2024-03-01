@@ -1,0 +1,48 @@
+{
+  "name": "OrdiBridge",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && cp -r ./dist/ /var/www/OrdiBridge/",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@chakra-ui/theme-tools": "^2.1.2",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/poppins": "^5.0.8",
+    "@tanstack/react-query": "^5.17.19",
+    "antd": "^5.13.1",
+    "axios": "^1.6.5",
+    "dotenv": "^16.3.1",
+    "font-face": "^2.3.4",
+    "framer-motion": "^10.16.16",
+    "prettier": "^3.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.6.2",
+    "react-icons": "^4.12.0",
+    "react-router-dom": "^6.21.1",
+    "react-toastify": "^10.0.4",
+    "viem": "^2.4.1",
+    "vite": "^5.1.4",
+    "vite-plugin-svgr": "^4.2.0",
+    "wagmi": "^2.3.1",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/parser": "^6.18.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5"
+  }
+}

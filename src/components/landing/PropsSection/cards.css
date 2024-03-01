@@ -1,0 +1,31 @@
+.card-body {
+    border-radius: 24px;
+    width: 332px;
+    height: 347px;
+    background-color: #030303;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.card-body-gradient {
+    border-radius: 24px;
+    width: 332px;
+    height: 347px;
+    background: linear-gradient(136deg, rgba(93, 7, 249, 0.7) 0%, rgba(5, 240, 176, 0.7) 98.79%), url("/assets/texturesBackground.svg");
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.cardHeader {
+    background: linear-gradient(147deg, #5D07F9 0%, #05F0B0 65.71%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cardHeaderWhite {
+    background: #F8F8F8;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
