@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: 'bridge'
+  base: '/wonderboy25/'
 });
 // export default defineConfig(({ command, mode, isSsrBuild, isPreview }) => {
 //   if (command === 'serve') {
